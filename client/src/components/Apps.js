@@ -6,9 +6,6 @@ import { Container, Grid, Header, Card, Image, Dropdown, Divider, Button } from 
 
 class Apps extends React.Component {
   state = { name: ''}
-  componentDidMount() {
-    this.props.dispatch(getApps())
-  }
 
   apps = () => {
     const {apps} = this.props;
